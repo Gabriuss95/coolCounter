@@ -43,3 +43,9 @@ p{
   flex-direction: column;
   margin: 200px
 }
+@media screen and (max-width: 559px) {
+  p {
+  position: relative;
+  left:17px;
+  }
+}
