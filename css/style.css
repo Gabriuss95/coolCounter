@@ -1,0 +1,45 @@
+*{
+  marign:0;
+  padding:0;
+}
+body{
+  background: linear-gradient(90deg, rgba(9,36,0,1) 0%, rgba(22,177,186,0.6194852941176471) 29%, rgba(116,255,0,1) 100%);
+}
+.navbar{
+  display: flex;
+  align-content: center;
+  margin: auto 0;
+  padding: 20px;
+
+}
+.navbar > h1{
+     margin: 0 auto;
+     text-align: center;
+     font-size: 4rem;
+}
+p{
+  font-size: 80px;
+  position: relative;
+  left:55px;
+  bottom:50px;
+}
+.buttons > button{
+  width: 80px;
+  text-align: center;
+  font-size: 3rem;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+}
+.buttons > button:hover{
+  cursor: pointer;
+  background-color: #202020;
+}
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 200px
+}
