@@ -19,9 +19,8 @@ body{
 }
 p{
   font-size: 80px;
-  position: relative;
-  left:55px;
-  bottom:50px;
+  display: flex;
+  justify-content: center;
 }
 .buttons > button{
   width: 80px;
@@ -42,10 +41,4 @@ p{
   align-content: center;
   flex-direction: column;
   margin: 200px
-}
-@media screen and (max-width: 559px) {
-  p {
-  position: relative;
-  left:17px;
-  }
 }
